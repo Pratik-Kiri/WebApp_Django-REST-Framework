@@ -15,6 +15,7 @@ from .views import (
 
     EmployeeViewset,
     ManagerViewset,
+    ProjectViewset,
 )
 
 app_name = 'webapp'
@@ -22,6 +23,7 @@ router = routers.DefaultRouter()
 
 router.register(r'employees', EmployeeViewset)
 router.register(r'managers', ManagerViewset)
+router.register(r'projects', ProjectViewset)
 
 
 urlpatterns = [
