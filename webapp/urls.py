@@ -14,12 +14,15 @@ from . import views
 from .views import (
 
     EmployeeViewset,
+    ManagerViewset,
 )
 
 app_name = 'webapp'
 router = routers.DefaultRouter()
 
 router.register(r'employees', EmployeeViewset)
+router.register(r'managers', ManagerViewset)
+
 
 urlpatterns = [
     url(r'', include(router.urls)),
