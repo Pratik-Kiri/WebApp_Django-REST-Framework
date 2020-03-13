@@ -12,6 +12,7 @@ class Manager(models.Model):
     first_name = models.CharField(max_length=10)
     last_name = models.CharField(max_length=10)
     city = models.CharField(max_length=50)
+    phone = models.IntegerField(null=True)
     manager_id = models.IntegerField()
 
     def __str__(self):
