@@ -21,4 +21,5 @@ class ProjectSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Project
-        fields = ('name', 'start_date', 'project_manager', 'project_manager_name', 'allocated_hours', 'created_timestamp', 'updated_timestamp')
+        # fields = ('name', 'start_date', 'project_manager', 'project_manager_name', 'allocated_hours', 'created_timestamp', 'updated_timestamp')
+        fields = '__all__'
