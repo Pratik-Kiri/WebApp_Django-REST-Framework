@@ -20,6 +20,7 @@ class Manager(models.Model):
 class Project(models.Model):
     name = models.CharField(max_length=100)
     start_date = models.DateField(null=True, blank=True)
+    end_date = models.DateField(null=True, blank=True)
     project_manager = models.ForeignKey(Manager, on_delete=models.SET_NULL, null=True,
                                         related_name="pro_managers",
                                         blank=True,
