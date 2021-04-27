@@ -1,2 +1,2 @@
-# WebApp_Django
-This is sample web App for learning purpose
+# WebApp_DRF
+Simple web application to understand RESTful APIs created using Python DRF
