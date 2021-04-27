@@ -1,2 +1,2 @@
 # WebApp_DRF
-Simple web application to understand RESTful APIs created using Python DRF
+Basic web application to understand RESTful APIs created using Python DRF
